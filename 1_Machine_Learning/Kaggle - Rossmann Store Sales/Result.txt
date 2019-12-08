@@ -1,0 +1,9 @@
+This dataset is downloaded from Kaggle. 
+
+Link: https://www.kaggle.com/c/rossmann-store-sales
+
+I used Linear Regression and Random Forest to solve this problem. 
+
+Using Linear Regression, model got score of around 91% and using Random Forest, model got score of around 97% in both training and test data.
+
+Still we can finetune the model using polynomial regression and some other combination of features.
