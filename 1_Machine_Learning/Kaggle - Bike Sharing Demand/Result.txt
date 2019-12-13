@@ -1,0 +1,15 @@
+This dataset is downloaded from Kaggle. 
+
+Link: https://www.kaggle.com/c/bike-sharing-demand
+
+I used Linear Regression, Polynomial Regression of degree 2 & 3, Decision Tree and Random Forest to solve this problem. 
+
+Using Linear Regression, model got score of around 45%.
+
+Since this is facing higher bias, i tried using polynomial features.
+
+And upon increasing model complexity, Random Forest gives score of around 98% for training data and 91% for test data.
+
+Still we can fine tune the model hyperparemeters to reduce variance.
+
+Since this model is facing high variance, we can reduce the features, and also we can increase regularization.
