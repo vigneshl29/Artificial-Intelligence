@@ -2,10 +2,31 @@ This dataset is downloaded from Kaggle.
 
 Link: https://www.kaggle.com/c/ashrae-energy-prediction
 
-Day 1: I have analysed full data and tried to fit dataset using Linear Regression, but I faced many problems related to system configuraton. Since the volume of data is very huge, the time taken to upload the files in colab is higher. And also whenever I run some plots, sessions are getting crashed because of the huge data (above 2 crores). Atlast I created linear regression model and completed training and testing, but I couldn't predict the test data as it's size is 1.5GB in Day 1 as I didn't upload test data in colab file directory.
+Day 1: I have analysed full data and tried to fit dataset using Linear Regression, but I faced many 
+problems related to system configuraton. Since the volume of data is very huge, the time taken to upload
+the files in colab is higher. And also whenever I run some plots, sessions are getting crashed because 
+of the huge data (above 2 crores). Atlast I created linear regression model and completed training and 
+testing, but I couldn't predict the test data as it's size is 1.5GB in Day 1 as I didn't upload test 
+data in colab file directory.
 
 
-Day 2: I have created zip format of all files and uploaded in colab file directory. I increased RAM upto 35GB and created Linear Regression Model. I have found that predicted data contains 4 crores records. My aim is to predict the test data and to submit in Kaggle in specific format which they have provided. When I train the dataset, RAM storage becomes full and session was crashed. So I modified some codes and finally predicted the test data and got the submission file as in Kaggle. I have submitted in kaggle and my score is 1.91. Benchmark is 0.93.
+Day 2: I have created zip format of all files and uploaded in colab file directory. I increased RAM upto 
+35GB and created Linear Regression Model. I have found that predicted data contains 4 crores records. My 
+aim is to predict the test data and to submit in Kaggle in specific format which they have provided. 
+When I train the dataset, RAM storage becomes full and session was crashed. So I modified some codes and 
+finally predicted the test data and got the submission file as in Kaggle. I have submitted in kaggle and 
+my score is 1.912. Benchmark is 0.93.
+
+
+Day 3: I have created Decision Tree model and got the score 1.772. Also I tried Random Forest with 10 
+trees and got score of 1.477.
+
+
+
+Summary:
+Linear Regression 	:	1.912
+Decision Tree 		:	1.772
+Random Forest 		:	1.477
 
 
 
