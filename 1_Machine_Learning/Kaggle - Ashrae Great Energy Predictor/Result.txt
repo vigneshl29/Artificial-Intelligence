@@ -1,0 +1,12 @@
+This dataset is downloaded from Kaggle. 
+
+Link: https://www.kaggle.com/c/ashrae-energy-prediction
+
+Day 1: I have analysed full data and tried to fit dataset using Linear Regression, but I faced many problems related to system configuraton. Since the volume of data is very huge, the time taken to upload the files in colab is higher. And also whenever I run some plots, sessions are getting crashed because of the huge data (above 2 crores). Atlast I created linear regression model and completed training and testing, but I couldn't predict the test data as it's size is 1.5GB in Day 1 as I didn't upload test data in colab file directory.
+
+
+Day 2: I have created zip format of all files and uploaded in colab file directory. I increased RAM upto 35GB and created Linear Regression Model. I have found that predicted data contains 4 crores records. My aim is to predict the test data and to submit in Kaggle in specific format which they have provided. When I train the dataset, RAM storage becomes full and session was crashed. So I modified some codes and finally predicted the test data and got the submission file as in Kaggle. I have submitted in kaggle and my score is 1.91. Benchmark is 0.93.
+
+
+
+Issues faced: RAM issue, always session crashed because of very huge volume of data.
