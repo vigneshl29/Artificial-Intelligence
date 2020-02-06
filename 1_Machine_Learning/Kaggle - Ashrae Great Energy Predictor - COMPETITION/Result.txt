@@ -21,12 +21,14 @@ my score is 1.912. Benchmark is 0.93.
 Day 3: I have created Decision Tree model and got the score 1.772. Also I tried Random Forest with 10 
 trees and got score of 1.477.
 
+Day 4: I have created XGBoost model and got the score 1.686.
 
 
 Summary:
 Linear Regression 	:	1.912
 Decision Tree 		:	1.772
 Random Forest 		:	1.477
+XGBoost				:   1.686
 
 
 
